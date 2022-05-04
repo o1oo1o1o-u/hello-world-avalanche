@@ -13,15 +13,15 @@ export default function App() {
 
       <div className="dataContainer">
         <div className="header">
-        👋 Hey there!
+        Bonjour !
         </div>
 
         <div className="bio">
-        I am farza and I worked on self-driving cars so that's pretty cool right? Connect your Ethereum wallet and wave at me!
+        Bienvenue sur cette première application react pour interagir avec un contrat intelligent.
         </div>
 
-        <button className="waveButton" onClick={wave}>
-          Wave at Me
+        <button className="helloButton" onClick={hello}>
+          Saluer
         </button>
       </div>
     </div>
